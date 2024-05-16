@@ -1,0 +1,23 @@
+.banner {
+	background-image: url(../../images/banière.jpg); 
+	color: white;
+	padding: 150px 0px;36
+	background-size: cover;
+	background-position: center;
+}
+linear-gradient(angle, start_color start_point, end_color end_point)
+
+.banner {
+  background-image:
+    /* Transparent gradient above */
+    linear-gradient(-1000deg, rgba(0,0,0,0.8) 10%, rgba(0,0,0,0.6) 90%),
+    /* Then image below */
+    url('images/banière.jpg');
+}
+
+
+.banner h1 {
+	color: white;
+	font-size: 50px;
+}
+

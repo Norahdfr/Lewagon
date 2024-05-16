@@ -1,0 +1,129 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("component/Avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+.rubrique {
+    background-color: #ADD8E6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rubrique h2 {
+    color: #000;
+}
+
+.rubrique p {
+    color: #333;
+}
+
+
+
+
+.btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00008B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #000066;
+}
+
+
+
+
+body {
+    background-color: #0000A0; /* Bleu clair */
+}
+
+
+
+
+
+
+body {
+    background-color: #808080; /* Blanc */
+    color: #000000; /* Couleur du texte en gris foncé */
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+form {
+    background-color: #CCCCCC; /* Blanc */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Légère ombre pour le formulaire */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Bleu */
+    color: #000000; /* Texte en blanc */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #808080; /* Bleu légèrement plus foncé au survol */
+}
+
+
+
+
+
+
+body {
+    background-color: #0000A0; /* Bleu foncé */
+    color: white; /* Couleur du texte en blanc pour contraster */
+}
